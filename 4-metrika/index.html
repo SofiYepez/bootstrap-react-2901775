@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metrika Layout</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .box {
+            aspect-ratio: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-decoration: none;
+            transition: opacity 0.3s;
+        }
+        .box:hover {
+            opacity: 0.9;
+            color: white;
+        }
+        .box i {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+        }
+        .wide-box {
+            aspect-ratio: 2/1;
+        }
+        .large-box {
+            aspect-ratio: 1.5;
+        }
+    </style>
+</head>
+<body>
+    <div class="container py-5">
+        <h1 class="mb-5">Metrika</h1>
+        
+        <div class="row g-4">
+            <!-- Primera fila -->
+            <div class="col-md-3">
+                <a href="#" class="box bg-info bg-opacity-75 w-100">
+                    <i class="bi bi-book"></i>
+                    <span>About Us</span>
+                </a>
+            </div>
+            <div class="col-md-3">
+                <a href="#" class="box bg-success bg-opacity-75 w-100">
+                    <i class="bi bi-people"></i>
+                    <span>Our Team</span>
+                </a>
+            </div>
+            <div class="col-md-6">
+                <a href="#" class="box large-box bg-primary bg-opacity-75 w-100">
+                    <i class="bi bi-images"></i>
+                    <span>Our Works</span>
+                </a>
+            </div>
+            
+            <!-- Segunda fila -->
+            <div class="col-md-6">
+                <a href="#" class="box wide-box bg-danger bg-opacity-75 w-100">
+                    <i class="bi bi-download"></i>
+                    <span>Resume</span>
+                </a>
+            </div>
+            <div class="col-md-6">
+                <div class="row g-4">
+                    <div class="col-12">
+                        <a href="#" class="box wide-box bg-pink bg-opacity-75 w-100" style="background-color: #d6567c;">
+                            <i class="bi bi-geo-alt"></i>
+                            <span>Contacts</span>
+                        </a>
+                    </div>
+                    <div class="col-6">
+                        <a href="#" class="box bg-warning bg-opacity-75 w-100" style="background-color: #e67e22;">
+                            <i class="bi bi-pencil"></i>
+                            <span>Blog</span>
+                        </a>
+                    </div>
+                    <div class="col-6">
+                        <a href="#" class="box bg-warning bg-opacity-75 w-100" style="background-color: #d4a017;">
+                            <i class="bi bi-envelope"></i>
+                            <span>Feedback</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.1/font/bootstrap-icons.min.css">
+    <!-- Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
