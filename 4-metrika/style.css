@@ -1,0 +1,24 @@
+.box {
+    aspect-ratio: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    transition: opacity 0.3s;
+}
+.box:hover {
+    opacity: 0.9;
+    color: white;
+}
+.box i {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+.wide-box {
+    aspect-ratio: 2/1;
+}
+.large-box {
+    aspect-ratio: 1.5;
+}
