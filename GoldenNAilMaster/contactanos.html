@@ -89,7 +89,7 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Cursos</a>
+                    <a class="nav-link" href="cursos.html">Cursos</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="contactanos.html">Contáctanos</a>
@@ -120,8 +120,45 @@
   </header><br>
 
   <!--Primera caja-->
+  <div class="container mt-5">
+    <h2 class="text-center">Encuentranos aqui</h2>
+
+    <!-- Contenedor del mapa -->
+    <div class="row">
+      <div class="col-md-12">
+        <div id="map">
+          <!-- Mapa embebido de Google Maps con iframe -->
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509369!2d144.9537353158914!3d-37.81627967975144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577b1f0cbbd136d!2sFederation%20Square!5e0!3m2!1sen!2sau!4v1614689512912!5m2!1sen!2sau" 
+            width="100%" 
+            height="400" 
+            frameborder="0" 
+            style="border:0;" 
+            allowfullscreen="" 
+            aria-hidden="false" 
+            tabindex="0">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </div><br>
   
   <!--Segunda caja-->
+  <div class="container text-center">
+    <div class="row">
+      <div class="col">
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Correo</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <button type="submit" class="bg-danger-subtle border border-0">Enviar</button>
+      </div>
+    </div>
+  </div><br>
   <!--Tercera caja-->
 </body>
 
